@@ -2,7 +2,7 @@
 
 # Airlock site
 
-The marketing site for [Airlock](https://github.com/dotbrains/airlock) — a
+The marketing site for [Airlock](https://github.com/smeltery/airlock) — a
 single-page Vite + React + TypeScript app, terminal/dark theme, no runtime
 dependencies beyond React.
 
@@ -31,7 +31,7 @@ The build is multi-page: the landing page (`index.html`) and the docs page
 
 This app lives in the `site/` subdirectory, so point Vercel at that directory:
 
-1. In Vercel, **New Project** → import `dotbrains/airlock`.
+1. In Vercel, **New Project** → import `smeltery/airlock`.
 2. Set **Root Directory** to `site`.
 3. Framework preset auto-detects **Vite** (build `npm run build`, output `dist`).
 4. Deploy.

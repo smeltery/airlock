@@ -467,8 +467,8 @@ function Footer() {
           <a href={`${REPO}/blob/main/docs/architecture.md`} target="_blank" rel="noreferrer">
             Architecture
           </a>
-          <a href="https://dotbrains.dev" target="_blank" rel="noreferrer">
-            dotbrains
+          <a href="https://smeltery.dev" target="_blank" rel="noreferrer">
+            smeltery
           </a>
         </div>
       </div>

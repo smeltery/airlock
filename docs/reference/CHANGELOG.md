@@ -38,4 +38,4 @@ Initial release.
   root-equivalent on the host; keep the API behind the token and a
   TLS-terminating proxy. See [SECURITY.md](SECURITY.md).
 
-[0.1.0]: https://github.com/dotbrains/airlock/releases/tag/v0.1.0
+[0.1.0]: https://github.com/smeltery/airlock/releases/tag/v0.1.0

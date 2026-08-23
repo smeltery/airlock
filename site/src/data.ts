@@ -2,7 +2,7 @@
 // (Docs.tsx) read from here; the theme is index.css. Adapted to Airlock —
 // local, disposable browser isolation backed by Kasm containers on Docker.
 
-export const REPO = "https://github.com/dotbrains/airlock";
+export const REPO = "https://github.com/smeltery/airlock";
 
 // ---------------------------------------------------------------------------
 // Browsers
@@ -174,7 +174,7 @@ export const INSTALL: Install[] = [
   {
     id: "source",
     label: "From source (Bun)",
-    code: "git clone https://github.com/dotbrains/airlock.git\ncd airlock\nbun install\ncp .env.sample .env",
+    code: "git clone https://github.com/smeltery/airlock.git\ncd airlock\nbun install\ncp .env.sample .env",
     note: "Needs Bun 1.1+ and a running Docker engine."
   },
   {

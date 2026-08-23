@@ -153,7 +153,7 @@ commit secrets or `.env` files.
 
 ## Issue Reporting
 
-Use [GitHub Issues](https://github.com/dotbrains/airlock/issues) for bug
+Use [GitHub Issues](https://github.com/smeltery/airlock/issues) for bug
 reports and feature requests. For security vulnerabilities, see
 [SECURITY.md](SECURITY.md) — do not open a public issue for them.
 

@@ -16,8 +16,8 @@ fully control.
 
 ```bash
 # 1. Build and push the shared image to a registry your cluster can pull.
-docker build -t ghcr.io/dotbrains/airlock:latest .
-docker push ghcr.io/dotbrains/airlock:latest
+docker build -t ghcr.io/smeltery/airlock:latest .
+docker push ghcr.io/smeltery/airlock:latest
 
 # 2. Create the secret (edit the example first, or use --from-literal).
 cp deploy/kubernetes/secret.example.yaml deploy/kubernetes/secret.yaml
@@ -36,7 +36,7 @@ Expose `airlock-api` with an Ingress (TLS at the edge) or
 
 | Contract       | This adapter                                                   |
 | -------------- | -------------------------------------------------------------- |
-| Image          | `ghcr.io/dotbrains/airlock:latest` from the root `Dockerfile`. |
+| Image          | `ghcr.io/smeltery/airlock:latest` from the root `Dockerfile`. |
 | API process    | `airlock-api` Deployment → `bun apps/api/dist/index.js`.       |
 | Worker process | `airlock-worker` Deployment (1 replica).                       |
 | Healthcheck    | `/healthz` liveness + readiness probes.                        |

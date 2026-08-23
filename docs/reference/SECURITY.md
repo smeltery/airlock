@@ -14,15 +14,15 @@ updates.
 **Do not open a public issue for security vulnerabilities.**
 
 Please report vulnerabilities privately through
-[GitHub Security Advisories](https://github.com/dotbrains/airlock/security/advisories).
+[GitHub Security Advisories](https://github.com/smeltery/airlock/security/advisories).
 
-1. Go to the [Security Advisories page](https://github.com/dotbrains/airlock/security/advisories)
+1. Go to the [Security Advisories page](https://github.com/smeltery/airlock/security/advisories)
 2. Click **"New draft security advisory"** (or use the **Report a
    vulnerability** button on the repository's **Security** tab)
 3. Fill in a description of the vulnerability, including steps to reproduce if
    possible
 
-Reports reach the dotbrains maintainers. Please give us a reasonable window to
+Reports reach the smeltery maintainers. Please give us a reasonable window to
 investigate and ship a fix before any public disclosure.
 
 ### Response Timeline

@@ -20,7 +20,7 @@ Airlock is a Bun + TypeScript monorepo. Install all workspace dependencies from
 the repo root:
 
 ```bash
-git clone https://github.com/dotbrains/airlock.git
+git clone https://github.com/smeltery/airlock.git
 cd airlock
 bun install
 cp .env.sample .env
