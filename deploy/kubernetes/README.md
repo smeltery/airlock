@@ -34,14 +34,14 @@ Expose `airlock-api` with an Ingress (TLS at the edge) or
 
 ## How it maps to the contract
 
-| Contract       | This adapter                                                   |
-| -------------- | -------------------------------------------------------------- |
+| Contract       | This adapter                                                  |
+| -------------- | ------------------------------------------------------------- |
 | Image          | `ghcr.io/smeltery/airlock:latest` from the root `Dockerfile`. |
-| API process    | `airlock-api` Deployment → `bun apps/api/dist/index.js`.       |
-| Worker process | `airlock-worker` Deployment (1 replica).                       |
-| Healthcheck    | `/healthz` liveness + readiness probes.                        |
-| Browser engine | `AIRLOCK_DOCKER_HOST` (remote, TLS).                           |
-| Secret         | `airlock-secrets` → `AIRLOCK_API_TOKEN`, etc.                  |
+| API process    | `airlock-api` Deployment → `bun apps/api/dist/index.js`.      |
+| Worker process | `airlock-worker` Deployment (1 replica).                      |
+| Healthcheck    | `/healthz` liveness + readiness probes.                       |
+| Browser engine | `AIRLOCK_DOCKER_HOST` (remote, TLS).                          |
+| Secret         | `airlock-secrets` → `AIRLOCK_API_TOKEN`, etc.                 |
 
 ## Notes
 
