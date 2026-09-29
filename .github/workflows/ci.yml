@@ -16,9 +16,7 @@ concurrency:
 jobs:
   check:
     name: check (bun)
-    # GitHub-hosted runners (ubuntu-latest) are unavailable on this org's
-    # billing plan; use the managed Blacksmith runner like the other repos.
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
@@ -36,7 +34,7 @@ jobs:
 
   docker-build:
     name: docker-build
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
